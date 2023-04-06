@@ -1,0 +1,114 @@
+.font-weight-light {
+    font-weight: 300;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -20px;
+    margin-left: -20px;
+}
+
+.col-md-4, .col-lg-12 {
+    position: relative;
+    width: 100%;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .3125rem;
+    margin-top: 100px;
+}
+
+.card .card-body {
+    padding: 2.5rem;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.page-body-wrapper {
+    min-height: calc(100vh - 70px);
+    padding-top: 70px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.page-body-wrapper.full-page-wrapper {
+    min-height: 100vh;
+    padding-top: 0;
+}
+
+.page-body-wrapper.full-page-wrapper .main-panel {
+    width: 100%;
+    -webkit-transition: none;
+    transition: none;
+}
+
+.page-body-wrapper.full-page-wrapper .main-panel .content-wrapper {
+    padding: 0;
+}
+
+.page-body-wrapper.full-page-wrapper .main-panel .content-wrapper>div {
+    height: 100%;
+}
+
+.main-panel {
+    -webkit-transition: width .25s ease,margin .25s ease;
+    transition: width .25s ease,margin .25s ease;
+    width: calc(100% - 260px);
+    min-height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+}
+
+.content-wrapper {
+    background: #c1f5ff;
+    padding: 2.75rem 2.25rem;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.stretch-card {
+    display: flex;
+    align-items: stretch;
+    justify-content: stretch;
+}
+
+.stretch-card>.card {
+    width: 100%;
+    min-width: 100%;
+    border: 0;
+    border-radius: 20px;
+}
+
+.grid-margin {
+    margin-bottom: 2.5rem;
+}
+
+@media (min-width: 768px) {
+    .col-md-4 {
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
+}
+
+@media (min-width: 992px){
+    .col-lg-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
