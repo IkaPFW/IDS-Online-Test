@@ -1,0 +1,3 @@
+[submodule "client/idn-online-test"]
+	path = client/idn-online-test
+	url = https://github.com/IkaPFW/IDS-Online-Test.git
