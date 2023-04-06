@@ -1,0 +1,7 @@
+Buatlah aplikasi API menggunakan bahasa berbasis OOP(contoh: java, c#), dengan requirement sebagai berikut:
+- Protocol: HTTP
+- Data: JSON
+- Method: GET
+- Response, sesuai pada file "viewData.json"
+- Logic aplikasi mengambil data dari database(contoh: mysql, sql server, postgre, atau lainnya)
+- Struktur database dan table bisa dibuat sesuai respon yang akan ditampilkan pada API
